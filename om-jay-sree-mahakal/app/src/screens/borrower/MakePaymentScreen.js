@@ -72,7 +72,7 @@ const MakePaymentScreen = ({ navigation }) => {
     try {
       const result = await ImagePicker.launchCameraAsync({
         allowsEditing: true,
-        aspect: [4, 3],
+        aspect: [9, 16],
         quality: 0.8,
       });
 
